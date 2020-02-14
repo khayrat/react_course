@@ -8,7 +8,7 @@ import ListGroup from "../common/listGroup";
 import MoviesTable from "./moviesTable";
 import Pagination from "../common/pagination";
 import SearchBox from "../common/searchBox";
-import { paginate } from "../utils/pagination";
+import { paginate } from "../utils/paginate";
 import auth from "../services/authService";
 
 class MovieDashboard extends Component {
